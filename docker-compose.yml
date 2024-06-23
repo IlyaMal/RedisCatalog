@@ -1,0 +1,6 @@
+﻿services:
+  redisexample:
+    image: redisexample
+    build:
+      context: .
+      dockerfile: RedisExample/Dockerfile
